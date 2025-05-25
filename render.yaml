@@ -13,13 +13,11 @@ services:
         value: 3001
 
   # Frontend Service
-  - type: web
+  - type: static
     name: mern-social-media-client
-    env: node
     rootDir: client
     buildCommand: npm install && npm run build
-    startCommand: serve -s build
+    staticPublishPath: ./build
     envVars:
       - key: REACT_APP_API_URL
         value: https://mern-social-media-api.onrender.com
-    staticPublishPath: ./build
