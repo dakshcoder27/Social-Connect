@@ -47,6 +47,10 @@ const upload = multer({ storage });
 app.post("/auth/register", upload.single("picture"), register);
 
 /* ROUTES */
+app.get("/", (req, res) => {
+  res.send("API is running...");
+});
+
 app.use("/auth", authRoutes);
 app.use("/users", userRoutes);
 app.use("/posts", postRoutes);
