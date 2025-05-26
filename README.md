@@ -2,15 +2,6 @@
 
 A full-stack social media application built with the MERN stack (MongoDB, Express.js, React.js, Node.js).
 
-## Features
-
-- User authentication and authorization
-- Create, read, update, and delete posts
-- Like and comment on posts
-- User profiles
-- Follow/unfollow users
-- Real-time updates
-
 ## Technologies Used
 
 - Frontend:
@@ -26,6 +17,15 @@ A full-stack social media application built with the MERN stack (MongoDB, Expres
   - MongoDB
   - Mongoose
   - JWT Authentication
+
+
+## Features
+
+ User Authentication– Implemented secure login signup using JWT-based authentication.
+ Like Interaction System– Developed a real-time like feature with MongoDB Express.
+ State Management– Used Redux Toolkit for efficient state handling.
+ RESTful API– Built scalable REST APIs with Express MongoDB for handling users posts.
+ Implemented dark mode and light mode with context api
 
 ## Prerequisites
 
@@ -90,38 +90,15 @@ npm start
 
 The application will be available at `http://localhost:3000`
 
-## Demo Video
 
-<div align="center">
-  <video width="800" height="450" controls autoplay>
-    <source src="recording.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
 
-This video demonstrates the following features:
+### Demo
 
-- User registration and login
-- Creating and managing posts
-- Social interactions (likes, comments)
-- User profile management
-- Following/unfollowing users
+[![Watch the demo]](https://drive.google.com/file/d/1hsF-tmuw5-L8DRtK9Ci1rQaahNxS9n2R/view?usp=sharing)
 
-## Project Structure
 
-```
-mern-social-media-master/
-├── client/                 # React frontend
-│   ├── public/
-│   └── src/
-├── server/                 # Node.js backend
-│   ├── controllers/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
-│   └── data/
-└── recording.mkv          # Demo video
-```
+
+
 
 ## Contributing
 
