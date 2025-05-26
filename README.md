@@ -94,7 +94,7 @@ The application will be available at `http://localhost:3000`
 
 <div align="center">
   <video width="800" height="450" controls autoplay>
-    <source src="recording.mkv" type="video/x-matroska">
+    <source src="recording.mp4" type="video/x-matroska">
     Your browser does not support the video tag.
   </video>
 </div>
